@@ -7,7 +7,9 @@
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ---
+<div align="center">
 <img width="421" height="225" alt="Screenshot 2026-04-25 at 12 12 08 AM" src="https://github.com/user-attachments/assets/845d8e9e-132b-4bfb-88c0-ea1c70f71889" />
+</div>
 
 
 ## Table of Contents
