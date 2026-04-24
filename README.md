@@ -1,5 +1,4 @@
 # Solana Smart Contracts Collection
-
 > A comprehensive collection of production-ready Solana smart contracts built with Rust & Anchor framework — featuring AMMs, escrow systems, staking, NFT protocols, and advanced DeFi primitives.
 
 ![Solana](https://img.shields.io/badge/Solana-000000?style=for-the-badge&logo=solana&logoColor=white)
@@ -8,6 +7,8 @@
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ---
+<img width="421" height="225" alt="Screenshot 2026-04-25 at 12 12 08 AM" src="https://github.com/user-attachments/assets/845d8e9e-132b-4bfb-88c0-ea1c70f71889" />
+
 
 ## Table of Contents
 
