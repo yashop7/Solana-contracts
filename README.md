@@ -1,4 +1,4 @@
-# 🚀 Solana Smart Contracts Collection
+# Solana Smart Contracts Collection
 
 > A comprehensive collection of production-ready Solana smart contracts built with Rust & Anchor framework — featuring AMMs, escrow systems, staking, NFT protocols, and advanced DeFi primitives.
 
@@ -9,7 +9,7 @@
 
 ---
 
-## 📚 Table of Contents
+## Table of Contents
 
 - [Overview](#-overview)
 - [Projects](#-projects)
@@ -22,38 +22,38 @@
 
 ---
 
-## 🌟 Overview
+## Overview
 
 This repository contains a curated collection of **Solana smart contracts** developed during the **Turbin3 Q1 2025 cohort**. Each contract demonstrates production-ready patterns for building secure, efficient, and composable decentralized applications on Solana.
 
 ### Key Highlights
 
-- ✅ **12+ Smart Contracts** — From foundational primitives to advanced DeFi protocols
-- 🔐 **Security-First** — Built with Anchor's security features and best practices
-- ⚡ **Gas Optimized** — Minimal compute units with efficient state management
-- 🧪 **Fully Tested** — Comprehensive test suites for each contract
-- 🔗 **Composable** — Cross-program invocations (CPIs) and PDA patterns
+- **12+ Smart Contracts** — From foundational primitives to advanced DeFi protocols
+- **Security-First** — Built with Anchor's security features and best practices
+- **Gas Optimized** — Minimal compute units with efficient state management
+- **Fully Tested** — Comprehensive test suites for each contract
+- **Composable** — Cross-program invocations (CPIs) and PDA patterns
 
 ---
 
-## 📦 Projects
+## Projects
 
 | Contract | Description | Status |
 |----------|-------------|--------|
-| [anchor-vault](./anchor-vault/) | Secure SOL vault with PDA-based account management | ✅ |
-| [anchor-escrow](./anchor-escrow/) | Trustless token escrow for peer-to-peer swaps | ✅ |
-| [anchor-amm](./anchor-amm/) | Constant product AMM with liquidity pools | ✅ |
-| [anchor-dice-game](./anchor-dice-game/) | On-chain casino with verifiable randomness | ✅ |
-| [anchor-nft-staking](./anchor-nft-staking/) | NFT staking with time-weighted rewards | ✅ |
-| [anchor-staking-contract](./anchor-staking-contract/) | General SPL token staking mechanism | ✅ |
-| [anchor-mplxcore](./anchor-mplxcore/) | Metaplex Core NFT integration | ✅ |
-| [anchor-quadratic-funding](./anchor-quadratic-funding/) | Quadratic funding for public goods | ✅ |
-| [blueshift-anchor-vault](./blueshift_anchor_vault/) | Advanced vault implementation | ✅ |
-| [blueshift-anchor-escrow](./blueshift_anchor_escrow/) | Enhanced escrow system | ✅ |
+| [anchor-vault](./anchor-vault/) | Secure SOL vault with PDA-based account management | Active |
+| [anchor-escrow](./anchor-escrow/) | Trustless token escrow for peer-to-peer swaps | Active |
+| [anchor-amm](./anchor-amm/) | Constant product AMM with liquidity pools | Active |
+| [anchor-dice-game](./anchor-dice-game/) | On-chain casino with verifiable randomness | Active |
+| [anchor-nft-staking](./anchor-nft-staking/) | NFT staking with time-weighted rewards | Active |
+| [anchor-staking-contract](./anchor-staking-contract/) | General SPL token staking mechanism | Active |
+| [anchor-mplxcore](./anchor-mplxcore/) | Metaplex Core NFT integration | Active |
+| [anchor-quadratic-funding](./anchor-quadratic-funding/) | Quadratic funding for public goods | Active |
+| [blueshift-anchor-vault](./blueshift_anchor_vault/) | Advanced vault implementation | Active |
+| [blueshift-anchor-escrow](./blueshift_anchor_escrow/) | Enhanced escrow system | Active |
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 <div align="center">
 
@@ -70,7 +70,7 @@ This repository contains a curated collection of **Solana smart contracts** deve
 
 ---
 
-## 🚦 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -109,9 +109,9 @@ anchor test --skip-local-validator
 
 ---
 
-## 💎 Contract Details
+## Contract Details
 
-### 🔐 Anchor Vault
+### Anchor Vault
 Secure vault program demonstrating:
 - Program Derived Addresses (PDAs) for deterministic addresses
 - SOL deposit & withdrawal mechanisms
@@ -122,7 +122,7 @@ Secure vault program demonstrating:
 // Key concepts: PDAs, SOL transfers, Account validation
 ```
 
-### 🤝 Anchor Escrow
+### Anchor Escrow
 Trustless escrow system featuring:
 - Maker/Taker swap model
 - PDA-based token vaults
@@ -133,7 +133,7 @@ Trustless escrow system featuring:
 // Key concepts: Token vaults, CPI, Account constraints
 ```
 
-### 📈 Anchor AMM
+### Anchor AMM
 Decentralized exchange implementing:
 - Constant product formula (x * y = k)
 - Liquidity pool creation & management
@@ -144,7 +144,7 @@ Decentralized exchange implementing:
 // Key concepts: Mathematical formulas, Token mints, Pool accounts
 ```
 
-### 🎲 Anchor Dice Game
+### Anchor Dice Game
 On-chain casino showcasing:
 - Verifiable randomness (no chainlink needed)
 - State management for game sessions
@@ -155,7 +155,7 @@ On-chain casino showcasing:
 // Key concepts: Randomness, State accounts, Error handling
 ```
 
-### 🎨 NFT Staking
+### NFT Staking
 NFT staking platform with:
 - Stake any Metaplex-compatible NFT
 - Time-based reward calculation
@@ -166,7 +166,7 @@ NFT staking platform with:
 // Key concepts: NFT metadata, Token accounts, Clock sysvar
 ```
 
-### 🏆 Quadratic Funding
+### Quadratic Funding
 Public goods funding mechanism:
 - Quadratic voting algorithm
 - Matching pool calculations
@@ -179,20 +179,20 @@ Public goods funding mechanism:
 
 ---
 
-## 🔒 Security
+## Security
 
 Each contract implements:
 
-- ✅ **Signer Verification** — All critical instructions require valid signers
-- ✅ **Account Validation** — Comprehensive account checks before mutations
-- ✅ **Overflow Protection** — Safe math operations for token calculations
-- ✅ **Reinitialization Guards** — Prevention of account reinitialization attacks
-- ✅ **PDA Verification** — Proper PDA validation for program-derived authorities
-- ✅ **Token Checks** — SPL token balance and mint verification
+- **Signer Verification** — All critical instructions require valid signers
+- **Account Validation** — Comprehensive account checks before mutations
+- **Overflow Protection** — Safe math operations for token calculations
+- **Reinitialization Guards** — Prevention of account reinitialization attacks
+- **PDA Verification** — Proper PDA validation for program-derived authorities
+- **Token Checks** — SPL token balance and mint verification
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 1. **Fork** the repository
 2. **Create** a feature branch (`git checkout -b feature/amazing`)
@@ -202,7 +202,7 @@ Each contract implements:
 
 ---
 
-## 📄 License
+## License
 
 MIT License — see [LICENSE](LICENSE) for details.
 
@@ -210,9 +210,8 @@ MIT License — see [LICENSE](LICENSE) for details.
 
 <div align="center">
 
-**Built with ❤️ during Turbin3 Q1 2025**
+**Built during Turbin3 Q1 2025**
 
-*[🌐 turbinsolana.io](https://turbin3.com)* • *[📚 Anchor Docs](https://www.anchor-lang.com/)* • *[📖 Solana Cookbook](https://solanacookbook.com/)*
+*[Turbin3](https://turbin3.com)* • *[Anchor Docs](https://www.anchor-lang.com/)* • *[Solana Cookbook](https://solanacookbook.com/)*
 
 </div>
-# Solana-contracts
